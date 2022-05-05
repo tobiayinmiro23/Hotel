@@ -1,0 +1,358 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: beige;
+  max-width: 1800px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/* navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* room image */
+.gallery {
+  background: beige;
+  padding: 3rem 0rem;
+}
+.galleryImg .carousel-item img {
+  height: 30rem;
+}
+.galleryWrapper {
+  width: 70%;
+  margin: auto;
+}
+/* facility */
+.facility {
+  background: white;
+  margin-bottom: 0.7rem;
+}
+.facilitiesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0.7rem;
+}
+.facilityImg {
+  width: 1.4rem;
+}
+.facility .container p {
+  font-size: 0.9rem;
+  color: grey;
+  line-height: 1rem;
+}
+.facility .container {
+  margin: 0.4rem 0.7rem;
+  width: 5rem;
+}
+/* check in */
+.travellerinfo {
+  background-color: white;
+  width: 100%;
+  padding: 1.6rem;
+}
+.date {
+  width: fit-content;
+  margin: auto;
+}
+.checkin {
+  padding:1.3rem 0.9rem;
+  border: 2px solid beige;
+  background: white;
+  width: 13.14rem;
+  border-radius: 0.3rem;
+}
+input {
+  color: black;
+}
+.adult,
+.children {
+  padding: 0.5rem 0.9rem;
+  border: 2px solid beige;
+  background: white;
+  width: 13.1rem;
+  border-radius: 0.3rem;
+}
+.customer input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin: 0.2rem 0rem;
+  width: 100%;
+}
+.checkin input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.checkinContainer,
+.customer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.date button {
+  width: 26.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding: 1rem 0rem;
+  background: aqua;
+  border-radius: 0.3rem;
+  border: 2px solid beige;
+  color: white;
+}
+.roomInfo h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-bottom: 0rem;
+}
+.roomAccessories,
+.roomDescription {
+  margin: 1rem 0rem;
+  background: white;
+  padding: 1.3rem 0rem;
+}
+.roomAccessories .info,
+.roomDescription .info {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+.roomDescription .info .ul li {
+  font-weight: bolder;
+  list-style: disc;
+}
+/* footer */
+footer {
+  background: rgba(0, 0, 0, 0.89);
+  color: white;
+  padding: 2.4rem 0rem;
+}
+.footerLinks1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerLinks1 h3 {
+  margin: 2rem;
+  font-weight: bolder;
+}
+.socialsWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.sm {
+  width: 1.8rem;
+  margin: 0.4rem;
+}
+.footerLinks2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.copywright,
+.subscribeText {
+  font-weight: bolder;
+}
+footer input,
+footer .send {
+  outline: none !important;
+  border: none;
+  padding: 0.56rem;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+}
+.subscribeWrapper {
+  display: flex;
+  align-items: center;
+}
+.cpy {
+  font-weight: bolder;
+}
+.subscribeWrapper .send {
+  background-color: beige;
+  color: rgb(20, 20, 20, 0.9);
+  width: 3.4rem;
+  height: 2.6rem;
+}
+.send button {
+  font-weight: bolder;
+  background: none;
+  outline: none !important;
+  border: none;
+}
+@media (max-width: 1309px) {
+  .galleryWrapper {
+    width: 85%;
+  }
+}
+@media (max-width: 1229px) {
+  .footerLinks1 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 851px) {
+  .socialsWrapper {
+    margin-left: 0rem;
+  }
+  .sm {
+    margin: 0rem 0.3rem;
+  }
+  .footerLinks1 h3 {
+    margin: 1rem 1.4rem;
+  }
+}
+@media (max-width: 742px) {
+  .galleryImg .carousel-item img {
+    height: 25rem;
+  }
+  .gallery {
+    padding: 1.5rem 0rem;
+  }
+  .footerLinks2 {
+    flex-wrap: wrap;
+  }
+  .copywright {
+    margin: 2rem;
+  }
+}
+@media (max-width: 609px) {
+  .galleryWrapper {
+    width: 95%;
+  }
+  .galleryImg .carousel-item img {
+    height: 24rem;
+  }
+}
+@media (max-width: 500px) {
+  .facilityImg {
+    width: 1.3rem;
+  }
+  .facility .container p {
+    font-size: 0.8rem;
+  }
+  .facility .container {
+    margin: 0.4rem 0.5rem;
+    width: 3rem;
+  }
+  .checkin{
+    width: fit-content;
+  }
+  .checkin input {
+    width: 9rem;
+    padding: 0rem;
+  }
+  .travellerinfo input {
+    font-weight: normal;
+  }
+  .adult,
+  .children {
+    width: 11.1rem;
+  }
+  .date button {
+    width: 22.3rem;
+  }
+}
+@media (max-width: 449px) {
+  .galleryImg .carousel-item img {
+    height: 21rem;
+  }
+  nav{
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+}
+@media (max-width: 405px) {
+  .travellerinfo {
+    padding: 2rem 0rem;
+  }
+  .roomAccessories h1,
+  .roomDescription h1 {
+    font-size: 1.52rem;
+  }
+  .name {
+    font-size: 1.72rem;
+  }
+  .facilityImg {
+    width: 1.16rem;
+  }
+  .facility .container p {
+    font-size: 0.76rem;
+    color: grey;
+    line-height: 1rem;
+  }
+  .facility .container {
+    margin: 0.4rem 0.35rem;
+    width: 3rem;
+  }
+}
+@media (max-width: 372px) {
+  .checkin input {
+    width: 8rem;
+  }
+  .travellerinfo input {
+    font-size: 0.9rem;
+  }
+  .adult,
+  .children {
+    width: 10.04rem;
+  }
+  .date button {
+    width: 20.13rem;
+  }
+}
+@media (max-width: 339px) {
+  .facilityImg {
+    width: 1rem;
+  }
+  .facility .container p {
+    font-size: 0.76rem;
+  }
+  .facility .container {
+    margin: 0.4rem 0.2rem;
+  }
+  .checkin input {
+    width: 7.5rem;
+  }
+  .adult,
+  .children {
+    width: 9.5rem;
+  }
+  .date button {
+    width: 19.13rem;
+  }
+  .date p {
+    font-size: 0.9rem;
+  }
+}

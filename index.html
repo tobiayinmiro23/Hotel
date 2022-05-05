@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen Resort</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="name">Evergreen Resort</h1>
+            <ul>
+                <h3><a href="#facilities" onclick="none()">facilities</a></h3>
+                <h3><a href="#gallery" onclick="none()">Gallery</a></h3>
+                <h3><a href="#testimonials" onclick="none()">Testimonials</a></h3>
+                <h3><a href="#contact" onclick="none()">Contact</a></h3>
+                <button><a target="_blank" href="/rooms.html " onclick="none()">Rooms</a></button>
+            </ul>
+            <div class="menu">
+                <img src="/image/icons8-menu-24.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main class="introduction">
+        <div class="info">
+            <h1>Welcome to Ever green Resort</h1>
+            <h4>where we combine comfort,amaizing cuisine  and first class treatment to give our customers the best experience.<br> at Ever green hotel our customers comfort is our top priority.</h4>
+            <a target="_blank" href="/rooms.html"><button>view rooms</button></a>
+            
+        </div>
+    </main>
+    <main id="facilities">
+        <div class="service">
+            <h1>Our facilities</h1>
+            <div class="cardContainer cardContainer1">
+                <div class="card card1">
+                    <div class="img">
+                        <img src="/image/pexels-pixabay-261102.jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <h1>Swimming pool</h1>
+                        <h4>Acess to enjoy day or night time swimming guaranteed to relax you body and keep you in good shape</h4>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="img">
+                        <img src="/image/pexels-athena-2961964.jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <h1>Tennis court</h1>
+                        <h4>An outdoor tennis court for recreational activities Our flood-lit court is accessible for more leisure time.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cardContainer cardContainer1">
+                <div class="card card3">
+                    <div class="img">
+                        <img src="/image/pexels-pixabay-433308 (1).jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <h1>Standby Gen</h1>
+                        <h4>At Ever green resort we have stable and steady supply of electricity 24h supply and a backup generator just in case</h4>
+                    </div>
+                </div>
+                <div class="card card4">
+                    <div class="img">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/337263032.jpg?k=2f6e0ce9c65fc14547a6208c32b0aedc52eb2d89efe1df5429ecb5095830b693&o=&hp=1" alt="">
+                        <!-- <img src="/image/pexels-william-choquette-1954524.jpg" alt=""> -->
+                    </div>
+                    <div class="caption">
+                        <h1>Gymnasium</h1>
+                        <h4>Our well-equipped gym with sauna rooms are accessible to our in-house fit fam junkies, and comes with an available instructor.</h4>
+                    </div>
+                </div>
+            </div>           
+            <div class="cardContainer cardContainer1">
+                <div style="display: flex;align-items:center ;" class="card card5">
+                    <div class="img">
+                        <img src="/image/pexels-anna-shvets-5069494.jpg" alt="">
+                    </div>
+                    <div class="caption">
+                        <h1>Spa</h1>
+                        <h4>You are cordially invited to experience relaxing massages anytime. Our variety of pampering sessions guarantee a memorable stay with us.</h4>
+                    </div>
+                </div>
+                <div class="card card6">
+                    <div class="img">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/346360405.jpg?k=33779af5fa7a08f57408a73db42d2309eec057f8cd8674faad8d90c26d062668&o=&hp=1" alt="">
+                    </div>
+                    <div class="caption">
+                        <h1>Restaurant</h1>
+                        <h4>At Evergreen resort we have a diverse variety of mouth watering cuisine to satisft your hunger</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main id="contact">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <div class="contactInfo">
+                <div class="addressWrapper">
+                    <div class="address">
+                        <div class="addressImg">
+                            <img src="/image/pin.png" alt="" srcset="">
+                        </div>
+                        <div class="addressText">
+                            <h2>Address</h2>
+                            <p class="addressP">
+                              Plot 1258 Adewale ajayi Street, PMB 11474, asokoro highway, abuja Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <div class="phoneImg">
+                            <img src="/image/telephone.png" alt="" srcset="">
+                        </div>
+                        <div class="phoneText">
+                            <h2>Phone no</h2>
+                            <p class="phonep">
+                              09087643211 <br>
+                              08127843275 <br>
+                              08072933274
+                            </p>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div class="emailImg">
+                            <img src="/image/email.png" alt="" srcset="">
+                        </div>
+                        <div class="emailText">
+                            <h2>Email</h2>
+                            <p class="emailp">
+                              Evergreen@gmail.com <br>
+                              info.Eresort@gmail.com <br>
+                              Eresort@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="messageWrapper">
+                    <div class="message">
+                        <form action="">
+                            <input required placeholder="Name" type="text" class="msgname">
+                            <input required placeholder="Email" type="email" class="msgemail">
+                            <textarea name="" required placeholder="Message"  class="messageText"></textarea>
+                            <div class="btnContainer">
+                                <button>Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main id="gallery">
+        <div class="gallery">
+            <h1>Our gallery</h1>
+            <div class="galleryWrapper">
+              <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="5"
+                    aria-label="Slide 6"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="6"
+                    aria-label="Slide 7"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="7"
+                    aria-label="Slide 8"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="8"
+                    aria-label="Slide 9"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="9"
+                    aria-label="Slide 10"
+                  ></button>
+                </div>
+                <div class="carousel-inner galleryImg relative w-full overflow-hidden">
+                  <div class="carousel-item active relative float-left w-full">
+                    <img
+                      src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/321442000.jpg?k=b57b8bd14783a10193b59a02bdbf9c02e520767c2a4cc55a41a4e3944b7cf510&o=&hp=1"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    
+                      src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/302644184.jpg?k=6531ede9a1c76eee56cf6a93e10b7c2f0d78a2ed5a60ce3ee91fad47102c674e&o=&hp=1"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="https://www.ekohotels.com/assets/img/sky-restaurant.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    src="/image/pexels-elle-hughes-2696064.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    src="/image/pexels-phùng-nhựt-5615795 (1).jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    src="https://www.ekohotels.com/assets/img/gallery_img4.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/301398101.jpg?k=997ad6aed8158517bc22574a362f9a7f85607f7c53f672bec1ff3a2b34ef2575&o=&hp=1"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                    src="https://www.ekohotels.com/assets/img/red-chinese-restaurant.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/246502600.jpg?k=1b49b700603a3f347bab28a8272d0c94c3fef2a3214b4f7884eeab7bd8a04e34&o=&hp=1"
+                      src="https://www.ekohotels.com/assets/img/gallery_img11.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item relative float-left w-full">
+                    <img
+                      src="https://www.ekohotels.com/assets/img/gallery_img7.jpg"
+                      class="block w-full"
+                      alt="..."
+                    />
+                    <div class="carousel-caption hidden md:block absolute text-center">
+                      <h5 class="text-xl"></h5>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </div>
+    </main>
+    <main id="testimonials" class="testimonial">
+      <h1>Testimonials</h1>
+      <div class="testimonailWrapper">
+        <div id="testimonial" class="carousel slide relative carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-inner relative w-full overflow-hidden">
+            <div class="carousel-item active relative float-left w-full text-center">
+              <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                "The room was good, the beds were super comfortable. The mlidea of semi covered bathroom was fun. The sit-out in front of the room is nice."
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjhuznHQh3QX7aA0eI6Am56MeU9VatCd8MA&usqp=CAU"
+                  class="rounded-full w-24 h-24 shadow-lg"
+                  alt="smaple image"
+                />
+              </div>
+              <p class="text-gray-500">- marry okafor</p>
+            </div>
+            <div class="carousel-item relative float-left w-full text-center">
+              <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                “We loved it!! Beautiful place and really nice people working there. Helen was a star and helped us with everything and was so nice!”
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT904u26Scmd-z6YrrS2pUlH5BZtyiWN7TIxg&usqp=CAU"
+                  class="rounded-full w-24 h-24 shadow-lg"
+                  alt="smaple image"
+                />
+              </div>
+              <p class="text-gray-500">- Oladeji ade</p>
+            </div>
+            <div class="carousel-item relative float-left w-full text-center">
+              <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                “A good selection of food at breakfast. The rooms were clean and as advertised. Friendly and helpful staff. Quick check-in.”
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSyc3RO_PiFADO8BLOVdaDMXpgbpPdzyFJA&usqp=CAU"
+                  class="rounded-full w-24 h-24 shadow-lg"
+                  alt="smaple image"
+                />
+              </div>
+              <p class="text-gray-500">- Joy ejiro</p>
+            </div>
+            <div class="carousel-item relative float-left w-full text-center">
+              <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                “Very friendly and helpful personel. Great place to have peaceful vacation. Relaxing pool and good breakfast.”
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EnGHNcbgpq6daitNYU1Rz5-dIgWJUhnStQ&usqp=CAU"
+                  class="rounded-full w-24 h-24 shadow-lg"
+                  alt="smaple image"
+                />
+              </div>
+              <p class="text-gray-500">- Joshua ekene</p>
+            </div>
+            <div class="carousel-item relative float-left w-full text-center">
+              <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                "Supportive staff. Eco friendly environment. Big swimming pool"
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  class="rounded-full w-24 h-24 shadow-lg"
+                  alt="smaple image"
+                />
+              </div>
+              <p class="text-gray-500">- Kate Allise</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+            type="button"
+            data-bs-target="#testimonial"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+            type="button"
+            data-bs-target="#testimonial"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerLinks1">
+          <h3>About</h3>
+          <h3>Faq</h3>
+          <h3>Our events</h3>
+          <h3>Blog</h3>
+          <h3>Dining</h3>
+          <h3>Our Vision and Mission</h3>
+          <h3>Contact us</h3>
+          <h3>Terms and Conditions</h3>
+        </div>
+        <div class="footerLinks2">
+          <div class="socialsWrapper">
+            <div class="sm"><img src="/image/facebook.png" alt=""></div>
+            <div class="sm"><img src="/image/twitter.png" alt=""></div>
+            <div class="sm"><img src="/image/pinterest (2).png" alt=""></div>
+            <div class="sm"><img src="/image/instagram.png" alt=""></div>
+          </div>
+          <div class="copywright">Copyright <span class="cpy">&copy;</span> 2021 Evergreen Resorts.</div>
+          <div class="subscribe">
+            <p class="subscribeText">Subscribe to our news letter</p>
+            <form class="subscribeWrapper">
+              <input type="email" required placeholder="email">
+              <div class="send">
+                <button>send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 
+        gallery images
+        https://www.ekohotels.com/assets/img/esu-deluxe-room.jpg
+
+        https://www.ekohotels.com/assets/img/eg-superior-room.jpg
+
+        https://www.ekohotels.com/assets/img/sky-restaurant.jpg
+
+        https://www.ekohotels.com/assets/img/gallery_img11.jpg
+
+        https://www.ekohotels.com/assets/img/gallery_img5.jpg
+
+        https://www.ekohotels.com/assets/img/red-chinese-restaurant.jpg
+
+        https://www.ekohotels.com/assets/img/gallery_img3.jpg
+
+        https://www.ekohotels.com/assets/img/lagos-irish-pub.jpg
+
+        --not so good https://www.ekohotels.com/assets/img/gallery_img1.jpg
+
+
+     -->
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>  
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="/script.js"></script>
+</body>
+</html>
