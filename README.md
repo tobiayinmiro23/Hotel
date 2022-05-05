@@ -1,0 +1,2 @@
+# Hotel
+A hotel website.
