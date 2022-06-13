@@ -5,6 +5,6 @@ let priceInNaira=Number(price)
 let Days=Number(days)
 
 let Total =priceInNaira * Days
-let TotalInNaira='Total'
+let TotalInNaira=Total.toLocaleString()
 
 amount.innerHTML =TotalInNaira
