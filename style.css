@@ -74,7 +74,7 @@ nav button {
 .introduction {
   width: 100%;
   height: 90vh;
-  background-image: url("/image/pexels-pixabay-258154.jpg");
+  background-image: url("image/pexels-pixabay-258154.jpg");
   background-size: cover;
   background-position: center;
   color: white;
