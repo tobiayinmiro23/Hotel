@@ -109,7 +109,7 @@ nav button {
   box-shadow: 0px 0px 12px 1px rgb(211, 195, 195);
   cursor: pointer;
   background-color: rgb(240, 32, 32);
-  color: rgb(0, 0, 0, 0.84);
+  color: black;
   background-color: ghostwhite;
   padding: 0.65rem 2rem;
 }
