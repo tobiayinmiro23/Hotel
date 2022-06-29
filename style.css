@@ -687,9 +687,11 @@ footer p{
     margin: 1rem;
   }
   .introduction {
-    height: 110vh;
+    height: 120vh;
+    padding-top: 2rem;
   }
 }
+
 @media (max-width: 449px) {
   .info h1 {
     font-size: 1.9rem;
@@ -820,12 +822,7 @@ footer p{
     font-size: 1rem;
   }
 }
-@media (max-height: 462px) {
-  .introduction {
-    height: 120vh;
-    padding-top: 2rem;
-  }
-}
+
 @media (max-width: 366px) {
   .caption h4 {
     font-size: 0.82rem;
