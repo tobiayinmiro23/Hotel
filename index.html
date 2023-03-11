@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen Resort</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+<!-- <script src="https://cdn.tailwindcss.com/3.2.4"></script> -->
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+        body: ["Roboto", "sans-serif"],
+        mono: ["ui-monospace", "monospace"],
+      },
+    },
+    corePlugins: {
+      preflight: false,
+    },
+  };
+</script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="name">Evergreen Resort</h1>
+            <ul>
+                <h3><a href="#facilities" onclick="none()">facilities</a></h3>
+                <h3><a href="#gallery" onclick="none()">Gallery</a></h3>
+                <h3><a href="#testimonials" onclick="none()">Testimonials</a></h3>
+                <h3><a href="#contact" onclick="none()">Contact</a></h3>
+                <button><a target="_blank" href="rooms.html " onclick="none()">Rooms</a></button>
+            </ul>
+            <div class="menu">
+                <img src="image/icons8-menu-24.png" alt="image">
+            </div>
+        </nav>
+    </header>
+    <main class="introduction">
+        <div class="info">
+            <h1>Welcome to Ever green Resort</h1>
+            <h4>where we combine comfort,amaizing cuisine  and first class treatment to give our customers the best experience.<br> at Ever green hotel our customers comfort is our top priority.</h4>
+            <a target="_blank" href="rooms.html"><button>view rooms</button></a>
+            
+        </div>
+    </main>
+    <main id="facilities">
+        <div class="service">
+            <h1>Our facilities</h1>
+            <div class="cardContainer cardContainer1">
+                <div class="card card1">
+                    <div class="img">
+                        <img src="image/pexels-pixabay-261102.jpg" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Swimming pool</h1>
+                        <h4>Acess to enjoy day or night time swimming guaranteed to relax you body and keep you in good shape</h4>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="img">
+                        <img src="image/pexels-athena-2961964.jpg" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Tennis court</h1>
+                        <h4>An outdoor tennis court for recreational activities Our flood-lit court is accessible for more leisure time.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cardContainer cardContainer1">
+                <div class="card card3">
+                    <div class="img">
+                        <img src="image/pexels-pixabay-433308 (1).jpg" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Standby Gen</h1>
+                        <h4>At Ever green resort we have stable and steady supply of electricity 24h supply and a backup generator just in case</h4>
+                    </div>
+                </div>
+                <div class="card card4">
+                    <div class="img">
+                        <img src=" https://cf.bstatic.com/xdata/images/hotel/max1280x900/337263032.jpg?k=2f6e0ce9c65fc14547a6208c32b0aedc52eb2d89efe1df5429ecb5095830b693&o=&hp=1" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Gymnasium</h1>
+                        <h4>Our well-equipped gym with sauna rooms are accessible to our in-house fit fam junkies, and comes with an available instructor.</h4>
+                    </div>
+                </div>
+            </div>           
+            <div class="cardContainer cardContainer1">
+                <div style="display: flex;align-items:center ;" class="card card5">
+                    <div class="img">
+                        <img src="image/pexels-anna-shvets-5069494.jpg" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Spa</h1>
+                        <h4>You are cordially invited to experience relaxing massages anytime. Our variety of pampering sessions guarantee a memorable stay with us.</h4>
+                    </div>
+                </div>
+                <div class="card card6">
+                    <div class="img">
+                        <img src=" https://cf.bstatic.com/xdata/images/hotel/max1024x768/346360405.jpg?k=33779af5fa7a08f57408a73db42d2309eec057f8cd8674faad8d90c26d062668&o=&hp=1" alt="image">
+                    </div>
+                    <div class="caption">
+                        <h1>Restaurant</h1>
+                        <h4>At Evergreen resort we have a diverse variety of mouth watering cuisine to satisft your hunger</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main id="contact">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <div class="contactInfo">
+                <div class="addressWrapper">
+                    <div class="address">
+                        <div class="addressImg">
+                            <img src="image/pin.png" alt="" srcset="">
+                        </div>
+                        <div class="addressText">
+                            <h2>Address</h2>
+                            <p class="addressP">
+                              Plot 1258 Adewale ajayi Street, PMB 11474, asokoro highway, abuja Nigeria
+                            </p>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <div class="phoneImg">
+                            <img src="image/telephone.png" alt="" srcset="">
+                        </div>
+                        <div class="phoneText">
+                            <h2>Phone no</h2>
+                            <p class="phonep">
+                              09087643211 <br>
+                              08127843275 <br>
+                              08072933274
+                            </p>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div class="emailImg">
+                            <img src="image/email.png" alt="" srcset="">
+                        </div>
+                        <div class="emailText">
+                            <h2>Email</h2>
+                            <p class="emailp">
+                              Evergreen@gmail.com <br>
+                              info.Eresort@gmail.com <br>
+                              Eresort@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="messageWrapper">
+                    <div class="message">
+                        <form action="">
+                            <input required placeholder="Name" type="text" class="msgname">
+                            <input required placeholder="Email" type="email" class="msgemail">
+                            <textarea name="" required placeholder="Message"  class="messageText"></textarea>
+                            <div class="btnContainer">
+                                <button>Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main id="gallery">
+        <div class="gallery">
+            <h1>Our gallery</h1>
+            <div class="galleryWrapper">
+              <div
+              id="carouselExampleCaptions"
+              class="relative"
+              data-te-carousel-init
+              data-te-carousel-slide>
+              <div
+                class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                data-te-carousel-indicators>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="0"
+                  data-te-carousel-active
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="1"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 2"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="2"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 3"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="3"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 4"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="4"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 5"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="5"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 6"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="6"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 7"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="7"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 8"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="8"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 9"></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="9"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 10"></button>
+              </div>
+              <div
+                class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                <div
+                  class="relative carousel-item float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-active
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://cf.bstatic.com/xdata/images/hotel/max1024x768/321442000.jpg?k=b57b8bd14783a10193b59a02bdbf9c02e520767c2a4cc55a41a4e3944b7cf510&o=&hp=1"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://cf.bstatic.com/xdata/images/hotel/max1280x900/302644184.jpg?k=6531ede9a1c76eee56cf6a93e10b7c2f0d78a2ed5a60ce3ee91fad47102c674e&o=&hp=1"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item  float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://www.ekohotels.com/assets/img/sky-restaurant.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src="image/pexels-elle-hughes-2696064.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src="image/pexels-phùng-nhựt-5615795 (1).jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://www.ekohotels.com/assets/img/gallery_img4.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://cf.bstatic.com/xdata/images/hotel/max1024x768/301398101.jpg?k=997ad6aed8158517bc22574a362f9a7f85607f7c53f672bec1ff3a2b34ef2575&o=&hp=1"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://www.ekohotels.com/assets/img/red-chinese-restaurant.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://www.ekohotels.com/assets/img/gallery_img11.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+                <div
+                  class="relative carousel-item float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden">
+                  <img
+                  src=" https://www.ekohotels.com/assets/img/gallery_img7.jpg"
+                    class="block w-full"
+                    alt="image..." />
+                </div>
+              </div>
+              <button
+                class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button"
+                data-te-target="#carouselExampleCaptions"
+                data-te-slide="prev">
+                <span class="inline-block h-8 w-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5" />
+                  </svg>
+                </span>
+                <span
+                  class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                  >Previous</span
+                >
+              </button>
+              <button
+                class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button"
+                data-te-target="#carouselExampleCaptions"
+                data-te-slide="next">
+                <span class="inline-block h-8 w-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+                </span>
+                <span
+                  class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                  >Next</span
+                >
+              </button>
+            </div>
+            </div>
+        </div>
+    </main>
+    <main id="testimonials" class="testimonial">
+      <h1>Testimonials</h1>
+      <div class="testimonailWrapper">
+
+         <div
+          id="carouselExampleCaption"
+          class="relative"
+          data-te-carousel-init
+          data-te-carousel-slide>
+          <div
+            class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+            <div
+              class="relative float-left -mr-[100%] hidden w-full text-center transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-active
+              data-te-carousel-item
+              style="backface-visibility: hidden">
+              <p
+                class="mx-auto max-w-4xl text-xl italic text-neutral-700 dark:text-neutral-300">
+                "The room was good, the beds were super comfortable. The mlidea of semi covered bathroom was fun. The sit-out in front of the room is nice."
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjhuznHQh3QX7aA0eI6Am56MeU9VatCd8MA&usqp=CAU"
+                  class="h-24 w-24 rounded-full shadow-lg dark:shadow-black/30"
+                  alt="imagesmaple image" />
+              </div>
+              <p class="text-neutral-500 dark:text-neutral-300">- Marry Okafor</p>
+            </div>
+            <div
+              class="relative float-left -mr-[100%] hidden w-full text-center transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-item
+              style="backface-visibility: hidden">
+              <p
+                class="mx-auto max-w-4xl text-xl italic text-neutral-700 dark:text-neutral-300">
+                “We loved it!! Beautiful place and really nice people working there. Helen was a star and helped us with everything and was so nice!”
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT904u26Scmd-z6YrrS2pUlH5BZtyiWN7TIxg&usqp=CAU"
+                  class="h-24 w-24 rounded-full shadow-lg dark:shadow-black/30"
+                  alt="imagesmaple image" />
+              </div>
+              <p class="text-neutral-500 dark:text-neutral-300">- Oladeji Ade</p>
+            </div>
+            <div
+              class="relative float-left -mr-[100%] hidden w-full text-center transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-item
+              style="backface-visibility: hidden">
+              <p
+                class="mx-auto max-w-4xl text-xl italic text-neutral-700 dark:text-neutral-300">
+                “A good selection of food at breakfast. The rooms were clean and as advertised. Friendly and helpful staff. Quick check-in.”
+              </p>
+              <div class="mt-12 mb-6 flex justify-center">
+                <img
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSyc3RO_PiFADO8BLOVdaDMXpgbpPdzyFJA&usqp=CAU"
+                  class="h-24 w-24 rounded-full shadow-lg dark:shadow-black/30"
+                  alt="imagesmaple image" />
+              </div>
+              <p class="text-neutral-500 dark:text-neutral-300">- Joy Ejiro</p>
+            </div>
+          </div>
+          <button
+            class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none dark:text-white dark:opacity-50 dark:hover:text-white dark:focus:text-white"
+            type="button"
+            data-te-target="#carouselExampleCaption"
+            data-te-slide="prev">
+            <span class="inline-block h-8 w-8">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Previous</span
+            >
+          </button>
+          <button
+            class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none dark:text-white dark:opacity-50 dark:hover:text-white dark:focus:text-white"
+            type="button"
+            data-te-target="#carouselExampleCaption"
+            data-te-slide="next">
+            <span class="inline-block h-8 w-8">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Next</span
+            >
+          </button>
+        </div>
+      
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerLinks1">
+          <h3>About</h3>
+          <h3>Faq</h3>
+          <h3>Our events</h3>
+          <h3>Blog</h3>
+          <h3>Dining</h3>
+          <h3>Our Vision and Mission</h3>
+          <h3>Contact us</h3>
+          <h3>Terms and Conditions</h3>
+        </div>
+        <div class="footerLinks2">
+          <div class="socialsWrapper">
+            <div class="sm"><img src=" image/facebook.png" alt="image"></div>
+            <div class="sm"><img src=" image/twitter.png" alt="image"></div>
+            <div class="sm"><img src=" image/pinterest (2).png" alt="image"></div>
+            <div class="sm"><img src=" image/instagram.png" alt="image"></div>
+          </div>
+          <div class="copywright">Copyright <span class="cpy">&copy;</span> 2021 Evergreen Resorts.</div>
+          <div class="subscribe">
+            <p class="subscribeText">Subscribe to our news letter</p>
+            <form class="subscribeWrapper">
+              <input type="email" required placeholder="email">
+              <div class="send">
+                <button>send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+     <!-- <script src=" https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script> -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+
+    <!-- <script src="https://cdn.tailwindcss.com/3.2.4"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+     <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>  
+    <script src=" script.js"></script>
+</body>
+</html>

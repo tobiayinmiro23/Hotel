@@ -1,0 +1,940 @@
+* {
+  margin: 0rem;
+  padding: 0rem; 
+  box-sizing: border-box;
+}
+p{
+  font-family: 'inter',sans-serif ;
+}
+a {
+  text-decoration: none;
+}
+body {
+  max-width: 1800px;
+  margin: auto;
+  overflow-x:hidden ;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/* navigation */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.9rem;
+  width: 100vw;
+  position: fixed;
+  height: fit-content;
+  background-color: #fff;
+  z-index: 8;
+  border-bottom: 1px solid lightgray;
+}
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    margin-top: 0rem;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+nav h3 a {
+  margin: 0rem 2rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'inter';
+  font-weight: normal;
+
+}
+button a {
+  color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+nav button {
+  background-color: rgb(30, 248, 248);
+  outline: none;
+  border: none;
+  border: 1.5px solid rgb(200, 193, 193);
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.9rem;
+}
+.menu {
+  display: none;
+}
+/* introduction  */
+.introduction {
+  width: 100%;
+  height: 90vh;
+  background-image: url(image/pexels-pixabay-258154.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+.info {
+  height: 100%;
+  display: grid;
+  text-align: center;
+  place-content: center;
+}
+.info h1 {
+  font-size: 3rem;
+  text-shadow: 0px 2px 4px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+}
+.info h4 {
+  font-size: 1.58rem;
+  text-shadow: 0px 2px 2px black;
+  width: 54rem;
+  /* font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder; */
+}
+.info button {
+  width: fit-content;
+  margin: auto;
+  outline: none;
+  border: none;
+  margin-top: 0.5rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  border-radius: 1.6rem;
+  box-shadow: 0px 0px 12px 1px rgb(211, 195, 195);
+  cursor: pointer;
+  color: black;
+  background-color: ghostwhite;
+  padding: 0.65rem 2rem;
+}
+/* facilities */
+.service {
+  background: beige;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.service h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 0.6rem 0rem;
+  font-weight: bolder;
+  margin: 0rem;
+  margin-bottom: 1.5rem;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background-color: #fff;
+  /* background: #f5f4f4; */
+  margin: 1.2rem 2rem;
+  box-shadow: 0px 0px 3px 1px lightgrey;
+}
+.img {
+  width: 18rem;
+  height: 16rem;
+}
+.card .caption {
+  padding: 0.3rem;
+  margin-left: 0.7rem;
+  width: 14rem;
+}
+.caption h1 {
+  /* line-height: 0rem; */
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+}
+.caption h4 {
+  font-size: 0.95rem;
+  font-weight: normal;
+  font-family:sans-serif;
+  font-family:sans-serif;
+}
+/* contact */
+.contact {
+  padding-bottom: 2rem;
+}
+.contact h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+.contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  width: fit-content;
+  padding: 1.5rem;
+  margin: auto;
+}
+.addressWrapper {
+  width: fit-content;
+  background: white;
+  padding: 0.8rem 0.7rem;
+  box-shadow: 0px 0px 1px 1px lightgrey;
+  border-radius: 0.15rem;
+}
+.addressImg,
+.phoneImg,
+.emailImg {
+  width: 1.3rem;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+}
+.address,
+.phone,
+.email {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5rem 0rem;
+}
+.emailp{
+  padding-bottom: 0.45rem;
+}
+.addressText,
+.phoneText,
+.emailText {
+  width: 12rem;
+}
+.addressText h2,
+.phoneText h2,
+.emailText h2 {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+.addressText p,
+.phoneText p,
+.emailText p {
+  font-size: 0.9rem;
+}
+.contact button {
+  color: white;
+}
+.message {
+  width: 31rem;
+  margin-left: 2rem;
+}
+.message input,
+.message textarea {
+  /* background: beige; */
+  outline: none;
+  border: none;
+  width: 100%;
+  margin: 0.8rem 0rem;
+  padding: 0.65rem;
+  border-radius: 0.18rem;
+  resize: none;
+  box-shadow: 0px 0px 1px 1px lightgrey;
+}
+.message button {
+  width: fit-content;
+  outline: none;
+  border: none;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.19rem;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: rgb(30, 248, 248);
+  padding: 0.45rem 1.7rem;
+}
+.btnContainer {
+  width: 100%;
+  text-align: end;
+}
+textarea {
+  height: 8rem;
+}
+/* gallery */
+.gallery {
+  background: beige;
+  padding-bottom: 2rem;
+}
+/* .galleryImg .carousel-item img { */
+.galleryWrapper .carousel-item img {
+  height: 30rem;
+}
+.galleryWrapper {
+  width: 70%;
+  margin: auto;
+}
+.gallery h1 {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+/* testimonial */
+.testimonailWrapper {
+  width: 70%;
+  box-shadow: 0px 0px 13px 2px rgb(247, 239, 239);
+  margin: auto;
+  padding: 1rem;
+}
+.testimonial {
+  padding-bottom: 2rem;
+}
+.testimonial h1 {
+  text-align: center;
+  margin: 1.2rem 0rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+/* footer */
+footer {
+  background: rgba(0, 0, 0, 0.89);
+  padding: 2.4rem 0rem;
+}
+.footerLinks1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer p{
+  color: white;
+}
+.footerLinks1 h3 {
+  margin: 2rem;
+  font-family:sans-serif;
+  font-weight: bolder;
+}
+.socialsWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.sm {
+  width: 1.8rem;
+  margin: 0.4rem;
+}
+.footerLinks2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.copywright,
+.subscribeText {
+  font-weight: bolder;
+  color: white;
+}
+.subscribeWrapper input,
+.subscribeWrapper .send {
+  outline: none;
+  padding: 0.3rem;
+  box-shadow: 0px 0px 1px 1px darkgrey;
+}
+.subscribeWrapper {
+  display: flex;
+  align-items: center;
+}
+.cpy {
+  font-weight: bolder;
+}
+.subscribeWrapper .send {
+  background-color: beige;
+  color: black;
+  width: 2.97rem;
+  height: 2.11rem;
+}
+.send button {
+  font-weight: bolder;
+}
+/* javascript */
+.hmaburgermenu {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  transition: 1s;
+}
+.none {
+  display: none;
+}
+
+@media (max-width: 1309px) {
+  .galleryWrapper {
+    width: 85%;
+  }
+}
+@media (max-width: 1229px) {
+  nav h3 a {
+    margin: 0rem 1rem;
+  }
+  ul {
+    margin-right: 1rem;
+  }
+  .footerLinks1 {
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 16rem;
+    height: 15rem;
+  }
+  .card .caption {
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    width: 12.4rem;
+  }
+}
+@media (max-width: 1136px) {
+  .card {
+    margin: 1.2rem;
+  }
+}
+@media (max-width: 1136px) {
+  .img {
+    width: 14rem;
+    height: 13rem;
+  }
+  .card .caption {
+    padding: 0.3rem;
+    margin: auto;
+    text-align: center;
+    width: 10.4rem;
+  }
+  .card {
+    padding: 0.67rem;
+  }
+}
+@media (max-width: 1072px) {
+  .info h1 {
+    font-size: 2.7rem;
+  }
+  .info h4 {
+    font-size: 1.3rem;
+    width: 40rem;
+  }
+  .info button {
+    padding: 0.58rem 1.9rem;
+  }
+}
+@media (max-width: 997px) {
+  ul {
+    margin-right: 0.2rem;
+  }
+  ul h3 a {
+    margin: 0rem 0.76rem;
+  }
+}
+@media (max-width: 919px) {
+  nav {
+    padding: 0.9rem 0rem;
+  }
+  .name {
+    margin-left: 1rem;
+  }
+  ul {
+    position: absolute;
+    top: 4.35rem;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    transition: 1s;
+    background-color: beige;
+    left: -100%;
+  }
+  nav h3 {
+    margin: 2.8rem 0rem;
+  }
+  .menu {
+    display: block;
+    margin-left: auto;
+    margin-right: 0.9rem;
+    cursor: pointer;
+  }
+}
+@media (max-width: 910px) {
+  .cardContainer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 901px) {
+  .img {
+    width: 20rem;
+    height: 16rem;
+  }
+  .card .caption {
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    width: 14rem;
+  }
+  .card {
+    padding: 0.8rem;
+  }
+  .testimonailWrapper {
+    width: 82%;
+  }
+}
+
+@media (max-width: 851px) {
+  .addressText,
+  .phoneText,
+  .emailText {
+    width: 10rem;
+  }
+  .message {
+    width: 29rem;
+    margin-left: 1rem;
+  }
+  .contactInfo {
+    padding: 0.8rem 1.4rem;
+  }
+  .contactInfo button {
+    margin-top: 0rem;
+  }
+  .socialsWrapper {
+    margin-left: 0rem;
+  }
+  .sm {
+    margin: 0rem 0.3rem;
+  }
+  .testimonailWrapper {
+    width: 92%;
+  }
+  .footerLinks1 h3 {
+    margin: 1rem 1.4rem;
+  }
+  .info h1 {
+    font-size: 2.55rem;
+    font-weight: bolder;
+  }
+  .info h4 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 38rem;
+  }
+}
+@media (max-width: 779px) {
+  .info h1 {
+    font-size: 2.34rem;
+    font-weight: bolder;
+  }
+  .info h4 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    width: 34rem;
+  }
+}
+
+@media (max-width: 743px) {
+  .footerLinks2 {
+    flex-wrap: wrap;
+  }
+  .copywright {
+    margin: 0rem 2rem;
+  }
+  .addressText,
+  .phoneText,
+  .emailText {
+    width: 9rem;
+  }
+  .phoneText p,
+  .emailText p,
+  .addressText P {
+    font-size: 0.8rem;
+  }
+  .message {
+    width: 27rem;
+    margin-left: 1rem;
+  }
+  .contactInfo {
+    padding: 0.8rem 1.4rem;
+  }
+  .message input {
+    padding: 0.4rem;
+  }
+}
+@media (max-width: 742px) {
+  .socialsWrapper,
+  .copywright {
+    margin: 2rem 1rem;
+  }
+  .galleryWrapper .carousel-item img {
+    height: 25rem;
+  }
+}
+@media (max-width: 694px) {
+  .addressText h2,
+  .phoneText h2,
+  .emailText h2 {
+    font-size: 1rem;
+  }
+  .img {
+    width: 15rem;
+    height: 13rem;
+  }
+  .card .caption {
+    padding: 0.3rem;
+    width: 10.4rem;
+  }
+  .message input {
+    padding: 0.3rem;
+  }
+  .message button {
+    margin-bottom: 0.3rem;
+    padding: 0.44rem 0.95rem;
+  }
+  .message {
+    width: 22rem;
+    margin-left: 1rem;
+  }
+  .contactInfo {
+    padding: 0.6rem 1.4rem;
+  }
+}
+@media (max-width: 609px) {
+  .card .caption {
+    padding: 0rem;
+    width: 10rem;
+  }
+
+  .message {
+    width: 20rem;
+    margin-left: 1rem;
+  }
+  .contactInfo {
+    padding: 0.6rem 1rem;
+  }
+  .galleryWrapper {
+    width: 95%;
+  }
+  .galleryWrapper .carousel-item img {
+    height: 24rem;
+  }
+}
+@media (max-width: 586px) {
+  .info h1 {
+    font-size: 2.29rem;
+  }
+  .italic {
+    font-size: 1.02rem;
+    line-height: 1.3rem;
+  }
+  .info button {
+    padding: 0.51rem 1.75rem;
+    font-size: medium;
+  }
+  .info h4 {
+    width: 28rem;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 561px) {
+  .contactInfo {
+    display: block;
+    padding: 1rem;
+  }
+  .message {
+    margin-left: 0rem;
+    margin-top: 1.2rem;
+  }
+  .message,
+  .addressWrapper {
+    width: 24rem;
+  }
+  .address,
+  .email,
+  .phone {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 551px) {
+  .info h1 {
+    font-size: 2.13rem;
+  }
+  .info h4 {
+    width: 25rem;
+  }
+}
+@media (max-width: 500px) {
+  .info h1 {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  ul {
+    top: 4.15rem;
+  }
+}
+@media (max-width: 475px) {
+  .info h1 {
+    font-size: 1.9rem;
+  }
+  .img {
+    width: 13.5rem;
+    height: 12rem;
+  }
+  .caption {
+    width: 9rem;
+  }
+}
+@media (max-height: 462px) {
+  nav ul h3{
+    margin: 1rem;
+  }
+  .introduction {
+    height: 110vh;
+  }
+}
+@media (max-height: 462px) {
+  .introduction {
+    height: 120vh;
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 449px) {
+  .info h1 {
+    font-size: 1.9rem;
+    padding: 0.3rem;
+  }
+  #testimonial p{
+    font-size: 1rem;
+  }
+  .info h4 {
+    width: 23rem;
+  }
+  .galleryImg .carousel-item img {
+    height: 21rem;
+  }
+}
+@media (max-width: 438px) {
+  .name {
+    font-size: 1.67rem;
+  }
+  ul {
+    top: 4rem;
+  }
+  .info h1 {
+    line-height: 1.85rem;
+    margin-bottom: 0.5rem;
+  }
+  .service h1,
+  .contact h1,
+  .gallery h1,
+  .testimonial h1 {
+    font-size: 1.5rem;
+  }
+  .caption h1 {
+    font-size: 1.15rem;
+  }
+  .img {
+    width: 12rem;
+    height: 11.7rem;
+  }
+  .caption {
+    width: 8rem;
+  }
+  .info button {
+    padding: 0.51rem 1.65rem;
+  }
+}
+@media (max-width: 418px) {
+  .contactInfo {
+    width: 100%;
+  }
+  .messageWrapper {
+    margin-top: 1.2rem;
+  }
+  .message,
+  .addressWrapper {
+    width: 21.5rem;
+    margin: auto;
+  }
+  .img {
+    width: 11rem;
+    height: 12rem;
+  }
+  .caption {
+    width: 7rem;
+  }
+}
+@media (max-width: 393px) {
+  .caption h4 {
+    font-size: 0.86rem;
+  }
+  .card {
+    padding: 0.7rem;
+    margin: 0.75rem 0rem;
+  }
+  .img {
+    width: 10rem;
+    height: 11rem;
+  }
+  .caption {
+    width: 7rem;
+  }
+  .card .caption {
+    margin-left: 0.3rem;
+  }
+  .info h4 {
+    font-size: 1rem;
+    width: 18rem;
+  }
+  .info h1 {
+    font-size: 2rem;
+  }
+  .contactInfo {
+    padding-top: 1.15rem;
+  }
+}
+@media (max-width: 379px) {
+  .message,
+  .addressWrapper {
+    width: 18rem;
+    margin: auto;
+  }
+  .introduction {
+    height: 85vh;
+  }
+  .info h1 {
+    font-size: 1.9rem;
+  }
+  
+  .menu {
+    margin-right: 0.6rem;
+  }
+  .name {
+    margin-left: 0.8rem;
+  }
+  nav h3 {
+    margin: 2.4rem 0rem;
+    font-size: 0.94rem;
+  }
+  nav h3 a {
+    font-size: 1rem;
+  }
+  nav button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 366px) {
+  .caption h4 {
+    font-size: 0.82rem;
+  }
+  .card {
+    padding: 0.6rem;
+  }
+  .img {
+    width: 9.5rem;
+    height: 11rem;
+  }
+  .card .caption {
+    margin-left: 0.22rem;
+    width: 9.5rem;
+  }
+  .galleryImg .carousel-item img {
+    height: 18rem;
+  }
+}
+@media (max-width: 343px) {
+  .card .caption {
+    margin-left: 0.22rem;
+    width: 8.5rem;
+  }
+}
+@media (max-width: 320px) {
+  .card .img {
+    width: 8.6rem;
+    height: 11rem;
+  }
+  .card .caption{
+    width: 7.9rem;
+  }
+  .message,
+  .addressWrapper {
+    width: 98%;
+    margin: auto;
+  }
+}
+@media (max-height: 319px) {
+  .introduction {
+    height: 130vh;
+    padding-top: 2rem;
+  }
+  .introduction .info h4{
+    line-height: 1.3rem;
+  }
+  .info button{
+  padding: 0.5rem 1.3rem;
+  }
+ 
+}
+@media (max-height: 316px) {
+  nav ul h3{
+    margin: 0.6rem;
+  }
+ 
+}
+@media (max-width: 310px) {
+  header nav .name {
+    font-size: 1.5rem;
+  }
+  header nav ul{
+    top: 3.85rem;
+  }
+ 
+}
+@media (max-width: 298px) {
+  .card .img {
+    width: 7.5rem;
+    height: 10rem;
+  }
+  .card .caption{
+    width: 7.5rem;
+  }
+  .caption h4{
+    font-size: 0.75rem;
+    line-height: 1.17rem;
+  }
+  .subscribeWrapper input{
+    width: 65%;
+  }
+}
+@media (max-height: 280px) {
+  nav ul h3{
+    margin: 0.3rem;
+  }
+}
+@media (max-height: 255px) {
+  nav ul {
+    top: 3.64rem;
+  }
+  nav{
+    padding: 0.3rem 0.8rem;
+  }
+}
+@media (max-height: 238px) {
+  nav ul h3{
+    margin: 0.1rem;
+  }
+  nav button{
+    padding: 0.1rem 0.8rem;
+  }
+}
