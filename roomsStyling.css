@@ -366,7 +366,7 @@ footer .send {
 }
 @media (max-width: 372px) {
   .checkin input {
-    width: 8.3rem !important;
+    width: 14.3rem !important;
   }
   .travellerinfo input {
     font-size: 0.9rem;
