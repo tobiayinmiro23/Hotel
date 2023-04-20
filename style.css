@@ -22,16 +22,16 @@ img {
 nav {
   display: flex;
   align-items: center;
-  padding: 0.9rem !important;
+  padding: 0.9rem;
   width: 100vw;
   position: fixed;
-  height: fit-content !important;
+  height: fit-content;
   background-color: #fff;
   z-index: 8;
   border-bottom: 1px solid lightgray;
 }
 .name {
-  font-size: 2rem !important;
+  font-size: 2rem ;
   font-weight: bold;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -150,14 +150,8 @@ textarea{
   border-radius: 0.2rem;
   padding: 1rem;
   background-color: #fff;
-  /* background: #f5f4f4; */
   margin: 1.2rem 2rem;
-  /* box-shadow: 0px 0px 3px 1px lightgrey; */
-}
-.cardContainer #card{
-  width: fit-content !important;
-  display: flex !important;
-  align-items: center !important;
+  box-shadow: 0px 0px 3px 0px lightgrey;
 }
 .img {
   width: 18rem;
@@ -667,6 +661,9 @@ footer p{
   .addressWrapper {
     width: 24rem;
   }
+  .message input{
+    padding: 0.45rem;
+  }
   .address,
   .email,
   .phone {
@@ -730,6 +727,9 @@ footer p{
   .info h4 {
     width: 23rem;
   }
+  /* nav{
+    padding: 0rem;
+  } */
   .galleryImg .carousel-item img {
     height: 21rem;
   }
@@ -737,9 +737,6 @@ footer p{
 @media (max-width: 438px) {
   .name {
     font-size: 1.67rem;
-  }
-  ul {
-    top: 4rem;
   }
   .info h1 {
     line-height: 1.85rem;
@@ -757,6 +754,9 @@ footer p{
   .img {
     width: 12rem;
     height: 11.7rem;
+  }
+  ul{
+    top: 4rem;
   }
   .caption {
     width: 8rem;
