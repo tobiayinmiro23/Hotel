@@ -15,27 +15,27 @@ function none(params) {
 const tl=gsap.timeline()
 gsap.registerPlugin('scrollTrigger');
 // for navigation
-gsap.from('nav',{
-    scrollTrigger:{
-        trigger:'nav',
-        toogleActions:'restart none restart none',
+//gsap.from('nav',{
+   // scrollTrigger:{
+       // trigger:'nav',
+      //  toogleActions:'restart none restart none',
         // scrub:3
-    },
-    y:-100,
-    duration:1,
-});
+  //  },
+  //  y:-100,
+    //duration:1,
+//});
 // for the info section
-gsap.from('.info',{
-    scrollTrigger:{
-        trigger:'.info',
-        toogleActions:'restart none none none',
+//gsap.from('.info',{
+    //scrollTrigger:{
+      //  trigger:'.info',
+      //  toogleActions:'restart none none none',
         // scrub:1
-    },
-    opacity:0,
-    delay:.4,
-    y:50,
-    duration:1.1,
-});
+   // },
+    //opacity:0,
+   // delay:.4,
+   // y:50,
+   // duration:1.1,
+//});
 // for the facilities heading
 gsap.from('.service > h1',{
     scrollTrigger:{
