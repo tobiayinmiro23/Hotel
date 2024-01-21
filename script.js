@@ -36,18 +36,6 @@ gsap.registerPlugin('scrollTrigger');
    // y:50,
    // duration:1.1,
 //});
-// for the facilities heading
-gsap.from('.service > h1',{
-    scrollTrigger:{
-        trigger:'.service > h1',
-        toogleActions:'restart none restart none',
-        // scrub:3
-    },
-    delay:.4,
-    opacity:0,
-    y:50,
-    duration:1.1,
-});
 // for the contact section
 gsap.from('.contact',{
     scrollTrigger:{
