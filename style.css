@@ -452,7 +452,7 @@ footer p{
   }
   ul {
     position: absolute;
-    top: 4.35rem;
+    top: 4.85rem;
     width: 100vw;
     height: 100vh;
     display: block;
@@ -687,7 +687,7 @@ footer p{
     font-size: 1.8rem;
   }
   ul {
-    top: 4.15rem;
+    top: 4.55rem;
   }
 }
 @media (max-width: 475px) {
@@ -756,7 +756,7 @@ footer p{
     height: 11.7rem;
   }
   ul{
-    top: 4rem;
+    top: 4.35rem;
   }
   .caption {
     width: 8rem;
@@ -908,7 +908,7 @@ footer p{
     font-size: 1.5rem;
   }
   header nav ul{
-    top: 3.85rem;
+    top: 4.1rem;
   }
  
 }
